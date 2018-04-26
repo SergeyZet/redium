@@ -54,13 +54,24 @@
 
 	<main>
 		<div class="test layout-position">
-			<p class="test-content">Петя и Маша были в гостях у Насти. Они вышли все вместе в сад и сели на траву. Настя взяла хлеба и масла. Они вместе ели, а после пели песни.</p>
-			<button class="test-read btn">Прочитал</button>
+			<div class="test-wraper">
+				<p class="test-content">Приготовься читать текст быстро и одновременно внимательно. Как только ты нажмешь кнопку готов, перед тобой откроется текст и будет отсчитываться время. После текста будет контрольный вопрос на понимание текста.</p>
+				<div class="questions">
+					<span class="questions-item">question1</span>
+					<span class="questions-item">question2</span>
+					<span class="questions-item">question3</span>
+				</div>
+			</div>
+
+			<button class="test-read btn">Старт</button>
+
+		</div>
+		<div class="timer">0
 		</div>
 	</main>
 	<div class="overlay"></div>
 
-	<script src="js/popup.js"></script>
-
+	<script src="js/test.js"></script>
+	
 </body>
 </html>
