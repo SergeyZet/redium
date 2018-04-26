@@ -1554,10 +1554,6 @@ p {
 
 
 /* ////////////////////// */
-* {
-    margin: auto;
-    padding: 0px;
-}
 
 li {
     list-style-type: none;
